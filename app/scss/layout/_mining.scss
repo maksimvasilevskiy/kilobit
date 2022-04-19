@@ -1,0 +1,97 @@
+.mining {
+	background: #FBF9FF;
+	box-sizing: border-box;
+	padding: 215px 0 76px;
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		z-index: 1;
+	}
+	&__video {
+		max-width: 634px;
+		width: 100%;
+		height: 396px;
+		background: #FFFFFF;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__play-btn {
+		width: 126px;
+		height: 126px;
+		border: 5px solid #D5C5EC;
+		box-sizing: border-box;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+	&__play-btn img {
+		margin-left: 5px;
+	}
+	&__info {
+		width: 49.13%;
+	}
+	&__subtitle {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 24px;
+		text-transform: uppercase;
+		color: #FD3963;
+		padding-left: 17px;
+		position: relative;
+	}
+	&__subtitle:before {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 5px;
+		height: 5px;
+		left: 0;
+		top: 11px;
+		background: #FD3963;
+	}
+	&__title {
+		margin-top: 16px;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 48px;
+		line-height: 64px;
+		text-transform: uppercase;
+		color: #242424;
+	}
+	&__text {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 26px;
+		color: #242424;
+	}
+	&__link {
+		margin-top: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-sizing: border-box;
+		width: 292px;
+		height: 54px;
+		background: #6031A3;
+		box-shadow: 0px 0px 10px rgba(96, 49, 163, 0.4);
+		border-radius: 100px;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 24px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		transition: all 0.25s ease;
+	}
+	&__link:hover {
+		background: #FD3963;
+		transition: all 0.25s ease;
+	}
+}
